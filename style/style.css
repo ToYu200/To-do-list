@@ -16,8 +16,14 @@ body {
     color: #FFF;
     font-family: logo;
     font-size: 50px;
+    margin-bottom: 20px;
 } 
 
+#by {
+    font-size: 30px;
+    margin-top: 0px;
+
+}
 
 .inputbutton {
     margin-left: 60px;
@@ -26,6 +32,9 @@ body {
 
 
 .inputtask {
+    padding: 0;
+    outline: none;
+    border: none;
     padding-left: 15px;
     width: 445px;
     height: 73px;
