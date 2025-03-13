@@ -115,8 +115,13 @@ body {
 
 @media (max-width: 768px) {
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     background:#4A132F;
+    overflow-x: hidden;
 }
 
 .container {
@@ -145,7 +150,6 @@ body {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -166,10 +170,10 @@ body {
 }
 
 .addtask {
-    margin-left: 115px;
+    margin-left: 105px;
     border-radius: 15px;
     border: none;
-    width: 130px;
+    width: 150px;
     height: 45px;
     flex-shrink: 0;
     background-color: #D28800;
@@ -203,7 +207,7 @@ body {
 } 
 
 .deletetask {
-    margin-top: 15px;
+    margin-top: 10px;
     width: 30px;
     height: 30px;
     border: none;
@@ -216,7 +220,7 @@ body {
     display: flex;
     align-items: start;
     border-radius: 15px;
-    width: 320px;
+    width: 315px;
     background-color: #514544;
     margin-left: 15px;
     overflow: hidden;
